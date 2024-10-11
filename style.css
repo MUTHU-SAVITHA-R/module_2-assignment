@@ -54,8 +54,19 @@ h1{
     
 }
 
-p{
+.p1,p2,p3{
     padding-left: 20px;
     padding-right: 20px;
     
+}
+@media (min-width:767px){
+    .p1{
+        width:100%;
+    }
+    .p2{
+        width:100%;
+    }
+    .p2{
+        width:100%;
+    }
 }
