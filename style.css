@@ -12,21 +12,14 @@
     margin-left: 15px;
 
 
-
-    
-
-
 }
 .container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items:center;
-    height:450px;
+    height:550px;
 }
-
-
-
 h1{
     padding: 10px;
     text-align: center;
@@ -59,9 +52,7 @@ h1{
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    display: inline;
-    
-    
+    display: inline;  
     
 }
 
