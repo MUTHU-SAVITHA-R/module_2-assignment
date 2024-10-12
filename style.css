@@ -1,61 +1,122 @@
-.cont{
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont1,.cont2,.cont3{
     background-color:gray;
-    width: 420px;
-    margin-top: 160px;
+    
+    
     border-color: black;
     border-width: 3px;
     border-style: solid;
     margin-left: 15px;
-    display: inline-block;
+
+
+
+    
 
 
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    height:450px;
+}
+
+
+
 h1{
+    padding: 10px;
     text-align: center;
     
 
 }
 .box1{
     background-color:palevioletred;
-    border-color: black;
-    border-width: 3px;
-    border-style: solid;
+    border-left-color: black;
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
     
     padding-left: 20px;
     padding-right: 20px;
-    
     display: inline;
+
 
 }
 .box2{
     background-color:red;
-    border-color: black;
-    border-width: 3px;
-    border-style: solid;
-    
+    border-left-color: black;
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    color: white;
     padding-left: 20px;
     padding-right: 20px;
-    
-    
     display: inline;
+    
+    
+    
 }
+
 .box3{
     background-color:yellowgreen;
-    border-color: black;
-    border-width: 3px;
-    border-style: solid;
-    
+    border-left-color: black;
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+
     padding-left: 20px;
     padding-right: 20px;
     display: inline;
+    
 }
 .food{
     text-align: right;
     
 }
-
 p{
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     
+}
+
+
+
+
+@media screen and (min-width:991px){
+    .cont1,.cont2,.cont3{
+        width:31%;
+        
+    }
+}
+@media screen and  (max-width:991px) and (min-width:768px){
+    .cont1,.cont2{
+        width:46%;
+        float:left;
+    }
+    .cont3{
+        width: 95%;
+
+    }
+        
+
+
+}
+
+
+@media screen and (max-width:768px) and (min-width:0px){
+    .cont1,.cont2,.cont3{
+        width:90%;
+        
+    }
 }
